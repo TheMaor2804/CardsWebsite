@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://127.0.0.1:8181/users";
+const API_URL = "https://cardsserver.onrender.com/users";
 
 export const login = async (userLogin) => {
     try {

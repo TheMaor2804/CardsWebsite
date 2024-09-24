@@ -1,5 +1,5 @@
 import axios from "axios";
-const apiUrl = "http://127.0.0.1:8181/cards";
+const apiUrl = "https://cardsserver.onrender.com/cards";
 
 export const getCards = async () => {
   try {
